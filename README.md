@@ -5,8 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kỷ Niệm 60 Năm Thành Lập Trường</title>
      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <style>
-        /* General Styles */
+     <style>
+/* Bố cục container */
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sidebar chung */
+.sidebar {
+    width: 22%;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    padding: 8px 0;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #3498db;
+    padding-left: 10px;
+}
+
+/* Sidebar trái */
+.sidebar.left {
+    border-right: 2px solid #34495e;
+}
+
+/* Sidebar phải */
+.sidebar.right {
+    border-left: 2px solid #34495e;
+}
+
+/* Nội dung chính */
+main {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #7f8c8d;
+}
+
+/* Hiệu ứng hover cho sidebar */
+.sidebar:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+      /* General Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -102,8 +190,32 @@
  border:2px solid #ccc;
  background-color: #EEEEEE;
  }
-    </style>
-</head>
+ #tuonglai h2 {
+ border:2px solid #ccc;
+ background-color: #EEEEEE;
+
+ }
+ #tuonglai div {
+ line-height: 1.8;
+ }
+</style>
+<div class="container">
+    <!-- Sidebar trái -->
+    <aside class="sidebar left">
+        <h3>Menu Phụ</h3>
+        <ul>
+            <li><a href="#history">Lịch Sử Trường</a></li>
+            <li><a href="#achievements">Thành Tựu</a></li>
+            <li><a href="#events">Sự Kiện</a></li>
+            <li><a href="#gallery">Thư Viện Ảnh</a></li>
+            <li><a href="#tuonglai">Hướng Tới Tương Lai</a></li>
+            <li><a href="#contact">Liên Hệ</a></li>
+        </ul>
+    </aside>
+
+    <!-- Nội dung chính -->
+    <main>
+        </head>
 <body>
     <header>
         <img src="https://nghiloc2.edu.vn/Images/logo.png" alt="Logo Trường"> 
@@ -241,9 +353,87 @@ Sau chương trình, Câu lạc Bộ Truyền thông, Đoàn trường đã đ�
     </section>
     <section id="tuonglai">
     <h2> Hướng Tới Lễ Kỉ Niệm 60 Năm Thành Lập Trường</h2>
+    <div>
+    <p> Để chuẩn bị cho lễ kỉ niệm sắp tới nhà trường đã và đang chuẩn bị.</p>
+    <ol>
+   <li>  Thành lập Ban Tổ chức
+Phân công trách nhiệm:
+<br>
+-Trưởng ban: Hiệu trưởng hoặc người có thẩm quyền cao nhất.
+<br>
+-Các tiểu ban: Nội dung, hậu cần, truyền thông, tài chính, lễ tân, và văn nghệ.
+<br>
+-Lập kế hoạch tổng thể: Thời gian, công việc cụ thể, ngân sách, và nhân lực cần thiết.
+<img src="https://scontent.fvii2-4.fna.fbcdn.net/v/t39.30808-6/473160455_1598152397470633_2301518529377818129_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=yWUQus-mDDYQ7kNvgH5ibdf&_nc_oc=Adj3AJ5EcgmHCrARjbaxEmuKzUbgMSpbGAxg5unlISC-US-z64ZkH2qPvCOvOml4I_U&_nc_zt=23&_nc_ht=scontent.fvii2-4.fna&_nc_gid=AmF7mHP_j51-gorN_L35kU7&oh=00_AYB-qFO_fViWlyYEREMvdjVB2MPoV0MQ47sCY1p8g3WAdQ&oe=6785A024" alt="Ảnh" style="display: block; margin: 0 auto; width: 300px;">
+</li>
+<li> Xây dựng chương trình chi tiết:
+<br>
+a. Phần lễ chính thức
+Diễn văn kỷ niệm: Tóm tắt lịch sử và thành tựu của trường.
+<br>-Phát biểu:
+Hiệu trưởng, đại diện thầy cô, học sinh, và khách mời.
+<br>-Vinh danh: Tri ân giáo viên cũ, trao kỷ niệm chương.
+<br>-Văn nghệ chào mừng.
+<img src="https://scontent.fvii2-1.fna.fbcdn.net/v/t39.30808-6/458535421_1053864973198353_1127511911942359756_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jY9O01BzjXkQ7kNvgEn9R-M&_nc_oc=AdhUNhb9MNFCbj2EtzB4B49khmsl7XwmK5z0zXodnq52ipJihNIoQ4RXncDTcIIaa-E&_nc_zt=23&_nc_ht=scontent.fvii2-1.fna&_nc_gid=AaNj95u1ej6drhkABvLvLUJ&oh=00_AYCT4ADMNLuC7F1ViHpsoSeYlbhBTy4zngfdFixqP5lJiw&oe=6785B6CD" alt="Ảnh" style="display: block; margin: 0 auto; width: 300px;">
+
+<br>b. Hoạt động bên lề
+<br>-Triển lãm tư liệu: Hình ảnh, video, và hiện vật qua các thời kỳ của trường.
+<br>-Giao lưu giữa các thế hệ: Tổ chức tọa đàm hoặc chương trình gặp gỡ.
+<br>-Hoạt động gây quỹ: Học bổng hoặc cải tạo cơ sở vật chất.</li>
+<img src="https://scontent.fvii2-4.fna.fbcdn.net/v/t39.30808-6/451755056_1019744686610382_5547216917125378621_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=aCcokd8q-CEQ7kNvgEp27UN&_nc_oc=AdgwLFzlKl6sC7toQHilMVjkztGSJ0s9Wm_ZpWpN4OrRwt0gGxFrawKQ3O7bn9Ak2rk&_nc_zt=23&_nc_ht=scontent.fvii2-4.fna&_nc_gid=ARu0kVApAiMWyf-CMvYS7H-&oh=00_AYC423b0DMnU9lFoBP-HYjwtHpwMjChGczxc1IupyxjWEg&oe=6785BD60" alt="Ảnh" style="display: block; margin: 0 auto; width: 300px;">
+<img src="https://scontent.fvii2-1.fna.fbcdn.net/v/t39.30808-6/458734857_1053864453198405_8240875814620474123_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ieQZSBN-HNUQ7kNvgFPYCle&_nc_oc=AdjR1rGjsD3jjGSBqCcBulpvD_DNAvlCt8TzJw6jRo3sqrcUVlOWoJ7bQB7M7IPRLQQ&_nc_zt=23&_nc_ht=scontent.fvii2-1.fna&_nc_gid=A0VY9s-HrF4io1tfNtTQ9DE&oh=00_AYBqL4YqI3e_-ahBAv5hUywIxK20ylz_Adupg9bmKPc32w&oe=6785C1B2" alt="Ảnh" style="display: block; margin: 0 auto; width: 300px;">
+<img src="https://scontent.fvii2-4.fna.fbcdn.net/v/t39.30808-6/451375343_1019743529943831_6623179396389940676_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=shEOS-uBpvEQ7kNvgEnyaMc&_nc_oc=Adin7ZrK6J_UBF3sXuzgdyWDql1PrEuuJVUQYgYhySC5RpGW9x0WK0TfIUqIqVRapr8&_nc_zt=23&_nc_ht=scontent.fvii2-4.fna&_nc_gid=AATOKL_GcDNdlTZnNDOoyQ2&oh=00_AYAmrk6085Qwh7M5oOOjwCq59PTimn_IRJ7Lh3Y3bwB30A&oe=6785B7EF" alt="Ảnh" style="display: block; margin: 0 auto; width: 300px;">
+
+<li> Chuẩn bị cơ sở vật chất
+<br>-Sân khấu và trang trí:
+<br>+Thiết kế backdrop mang dấu ấn 60 năm (logo, màu sắc chủ đạo).
+<br>+Trang trí khu vực tổ chức, cổng chào, và sân trường.
+<br>+Âm thanh, ánh sáng: Đảm bảo kỹ thuật tốt cho phần lễ và văn nghệ.
+<br>-Chỗ ngồi và sơ đồ: Chuẩn bị ghế ngồi, bố trí khu vực hợp lý cho học sinh, giáo viên, và khách mời.</li>
+<img src="https://scontent.fvii2-1.fna.fbcdn.net/v/t39.30808-6/462268470_506530222302325_1381682737573770134_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NqFEJ9tUwJkQ7kNvgHd4TBF&_nc_oc=AdgfrlDGVeFKP67qxbKwrlI9eaPaJmr2xz9Ko20VxNfsxNa4FCp5EFIcmilD_8yMi7k&_nc_zt=23&_nc_ht=scontent.fvii2-1.fna&_nc_gid=AWP8gwD_VjhsWdewWDPXiFA&oh=00_AYBuygHr9TQCWVJf7CCLQNYI5pjgFO0Q-CMPUR8c-LpY1g&oe=6785AB71" alt="Ảnh" style="display: block; margin: 0 auto; width: 300px;">
+<img src="https://scontent.fvii2-1.fna.fbcdn.net/v/t39.30808-6/460076097_490830613872286_794492854176956877_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9cHiwEhJdVoQ7kNvgGXe9-e&_nc_oc=Adjs1KPX-PTk0OMt4wiiJhORu6Bhh5WuZ1MbAhPzrXmVdes8A2nbHFJiMpaK9b2zwHE&_nc_zt=23&_nc_ht=scontent.fvii2-1.fna&_nc_gid=AAVR_gfFYZ4jpfWyrwkoKvP&oh=00_AYDvqiWtTzYciRxzeSB7rNFjUBc822SFXECOf41PUi64Uw&oe=6785BAD8" alt="Ảnh" style="display: block; margin: 0 auto; width: 300px;">
+<img src="https://scontent.fvii2-4.fna.fbcdn.net/v/t39.30808-6/458708921_1053865336531650_4671306446094004002_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ehry0Xa9CMMQ7kNvgH0rWmy&_nc_oc=AdgZYcwB_5ccrOfd_Pk7TSwDUoB0pa6m1HToScC345fUF-3404ayQ7YGHX9p7aDrsDw&_nc_zt=23&_nc_ht=scontent.fvii2-4.fna&_nc_gid=Apb3BFynyblysh2L9B0WaHy&oh=00_AYA6-pTDgLxFfUq6E8mi__0jhFuXSV1fAQeRK3jMVuJveA&oe=6785C5C2" alt="Ảnh" style="display: block; margin: 0 auto; width: 300px;">
+
+<li> Huy động nguồn lực
+<br>-Ngân sách:
+<br>Từ ngân sách nhà trường.
+<br>Hỗ trợ từ cựu học sinh, phụ huynh, hoặc các đối tác.
+<br>-Nhân sự:
+<br>Huy động giáo viên, học sinh tham gia tổ chức.
+<br>Phối hợp với các đơn vị cung cấp dịch vụ sự kiện nếu cần.
+</li>
+<img src="https://scontent.fvii2-1.fna.fbcdn.net/v/t39.30808-6/467746812_1109862304265286_94816373180305484_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nxAd212MTuMQ7kNvgGYE5Y5&_nc_oc=AdiikGD79G-MuDZUQAhJQ3ZoQBMfSEeGffWIucqoP09KO3rQMJJ2-qR1hnpzprGLHe8&_nc_zt=23&_nc_ht=scontent.fvii2-1.fna&_nc_gid=AE1bpntmEe03VPThoSKsuNn&oh=00_AYAsmguJb1ste0OfJEPUIr_djurg8_AdJuEVTQy0RIA0gw&oe=6785CEDD" alt="Ảnh" style="display: block; margin: 0 auto; width: 300px;">
+<img src="https://scontent.fvii2-1.fna.fbcdn.net/v/t39.30808-6/402042525_872994144618771_5369801803442337563_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Gxvgg9rFxuEQ7kNvgHUiG77&_nc_oc=AdggpIehpdpgOqBDA0EoSfbuPGHVSh2ATO6RGIHiCnDVsaHtSnGw16JpIeCdq6Rqo64&_nc_zt=23&_nc_ht=scontent.fvii2-1.fna&_nc_gid=Ad6x_6xed6rKydlWebAfrtq&oh=00_AYDic_b5xXg0E9n_BlsCwxyIGiECUS5r1BVQ2Q4cn-I6IQ&oe=6785D872" alt="Ảnh" style="display: block; margin: 0 auto; width: 300px;">
+
+
+
+<li> Tổng kết và tri ân
+Tổ chức buổi tổng kết để cảm ơn các cá nhân và tập thể đã đóng góp.
+Chia sẻ hình ảnh, video sự kiện trên các kênh truyền thông.
+Lập báo cáo về sự kiện và rút kinh nghiệm cho các sự kiện sau.</li>
+</div>
     <footer id="contact">
         <p><strong>Liên hệ:</strong> <a href="https://www.facebook.com/C3NGHILOC2" style="color: white;">Trung học phổ thông Nghi Lộc 2</a></p>
         <p>Hotline: 0123 456 789</p>
     </footer>
 </body>
+    </main>
+
+    <!-- Sidebar phải -->
+    <aside class="sidebar right">
+        <h3>Thông Báo Mới</h3>
+        <ul>
+            <li><a href="#">Hội thảo định hướng nghề nghiệp</a></li>
+            <li><a href="#">Cuộc thi HSG cấp tỉnh</a></li>
+            <li><a href="#">Thông tin lễ kỷ niệm</a></li>
+            <li><a href="#">Kế hoạch hoạt động ngoại khóa</a></li>
+        </ul>
+        <h3>Liên Kết Hữu Ích</h3>
+        <ul>
+            <li><a href="https://moet.gov.vn" target="_blank">Bộ GD&ĐT</a></li>
+            <li><a href="https://nghean.edu.vn" target="_blank">Sở GD&ĐT Nghệ An</a></li>
+            <li><a href="https://facebook.com" target="_blank">Fanpage Trường</a></li>
+        </ul>
+    </aside>
+</div>
 </html>
